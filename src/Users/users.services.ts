@@ -5,6 +5,10 @@ import { User } from './users.entity';
 export class UserService {
   private users: Array<User> = [];
 
+  public getAllUsers() {
+    return this.users;
+  }
+
   public createUser(user: User): User {
     this.users.push(user);
 
