@@ -5,6 +5,12 @@ import { User } from './users.entity';
 export class UserService {
   private users: Array<User> = [];
 
+  public getOneUser(id: string): User {
+    const teste = this.users.find((user) => user.id === id);
+
+    return teste;
+  }
+
   public getAllUsers() {
     return this.users;
   }
