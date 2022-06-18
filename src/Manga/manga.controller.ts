@@ -1,6 +1,6 @@
-import { Body, Controller, Get, Param, Post } from "@nestjs/common";
-import { Manga } from "./manga.entity";
-import { MangaService } from "./manga.services";
+import { Body, Controller, Get, Param, Post, Put } from '@nestjs/common';
+import { Manga } from './manga.entity';
+import { MangaService } from './manga.services';
 
 @Controller('manga')
 export class MangaController {

@@ -1,5 +1,5 @@
-import { Injectable } from "@nestjs/common";
-import { Manga } from "./manga.entity";
+import { Injectable } from '@nestjs/common';
+import { Manga } from './manga.entity';
 
 @Injectable()
 export class MangaService {
